@@ -1,1 +1,41 @@
-<p>quotes-form works!</p>
+<form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <div class="form-group">
+
+        <label for="author">Author</label>
+        <input [(ngModel)]="newQuote.author" type="text" class="form-control" id="author" name="author" #author='ngModel' required>
+        <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+          <p>Author is required</p>
+      </div>
+      
+    </div>  
+    <div class="form-group">
+
+        <label for="title">Title</label>
+        <input [(ngModel)]="newQuote.title" type="text" class="form-control" id="title" name="title" #title='ngModel'  required>
+        <div [hidden]="title.valid || title.pristine" class="alert alert-danger">
+          <p>title is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+
+        <label for="quote">Quote</label>
+        <textarea [(ngModel)]="newQuote.quote" class="form-control" id="quote" rows="4"  name="quote" #quote='ngModel' required></textarea>
+        <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+          <p>Quote is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+
+      <label for="name">Publisher</label>
+      <input [(ngModel)]="newQuote.submitedBy" type="text" class="form-control" id="publisher" name="publisher" #submitedBy='ngModel' required>
+      <div [hidden]="submitedBy.valid || submitedBy.pristine" class="alert alert-danger">
+        <p>publisher is required</p>
+    </div>
+    <label for="date">Date Submited</label>
+    <input type='date'>
+  </div>    
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save Quote</button>
+      </div>
+</form>
