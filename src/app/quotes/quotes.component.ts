@@ -12,8 +12,8 @@ export class QuoteComponent implements OnInit {
   isComplete= true;
 
   quotes: Quotes[]=[
-    new Quotes(0,'Paulo Coelho','Inspiration','There is only one thing that makes a dream impossible to achieve: the fear of failure.',0,0,'Ronald',new Date(2020,9,25)),
-    new Quotes(1,'Albert Einstein','Technology & Humanity','I fear the day when the technology overlaps with our humanity. The world will only have a generation of idiots.',0,0,'Mutahi Kagwe',new Date(2020,9,8)),
+    new Quotes(0,'Eleanor Roosevelt','Inspiration','The future belongs to those who believe in beauty of their dreams.',0,0,'Nadine',new Date(2020,9,25)),
+    new Quotes(1,'Gottlob Fredge','motivation','Change the world by being yourself.',0,0,'Meddy',new Date(2020,9,8)),
    
   ];
   getCurrentId(){
