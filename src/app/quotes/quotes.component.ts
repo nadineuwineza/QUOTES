@@ -14,6 +14,8 @@ export class QuoteComponent implements OnInit {
   quotes: Quotes[]=[
     new Quotes(0,'Eleanor Roosevelt','Inspiration','The future belongs to those who believe in beauty of their dreams.',0,0,'Nadine',new Date(2020,9,25)),
     new Quotes(1,'Gottlob Fredge','motivation','Change the world by being yourself.',0,0,'Meddy',new Date(2020,9,8)),
+    new Quotes(2,'Lailah Gifty Akita','Faith','never lose faith,hope and courage',0,0,'Barack Obama',new Date(2020,9,8)),
+    new Quotes(3,'Nancy D Solomon','courage','You get in life what you have the courage to ask for',0,0,'Mikr Henry',new Date(2020,9,8)),
    
   ];
   getCurrentId(){
