@@ -1,32 +1,27 @@
 # QUOTES
 
 ### Done by UWINEZA NADINE
-email:nadineuwineza2017@gmail.com
+email:nadineuwineza2017@gmail.com 
+## Description
 
 This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
 
-Quotes 
-By Uwineza Nadine
-Moringa School
-Description
-Quotes: an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
-
-Setup/Installation Requirements
+## Setup/Installation Requirements
 There are no installation requirments needed with your web browser you can be abe to access the site.
 
-Technologies Used
- HTML 
- CSS Javascript/Typescript...
- bootstrap
- jquery. and
- All this were built on Angular.
+## Technologies Used
+ * HTML 
+ * CSS Javascript and Typescript
+ * bootstrap
+ * Angular CLI 
+ 
 
  In case you have any issue on this project feel free to reach ou to me (nadineuwineza2017@gmail.com). Also feel free to make contribtion to the code.
 
- link 
+ ## link 
  https://github.com/nadineuwineza/QUOTES.git
 
-# LICENCE
+## LICENCE
 
  MIT licence
  copyright(c) 2020 Uwineza Nadine
